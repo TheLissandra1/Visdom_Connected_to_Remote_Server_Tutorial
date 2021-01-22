@@ -14,7 +14,7 @@ This is the tutorial of how to connect VISDOM  locally when training in a remote
   - 在Pageant中开一个duplicate session, 登录QM远程服务器，接入GPU，加载anaconda模块和环境，直接运行想要可视化的python文件
   - In EnglightenGAN training process: 
    ```python
-    pythonscripts/script.py --train
+    python scripts/script.py --train
    ```
  * <img src = "https://raw.githubusercontent.com/TheLissandra1/Visdom_Connected_to_Remote_Server_Tutorial/main/Images/visdom.png" width="100%">
 #### tips:
