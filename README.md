@@ -21,3 +21,5 @@ This is the tutorial of how to connect VISDOM  locally when training in a remote
 * If "OSError: [Errno 98] Address already in use",
     - use 'netstat -tunlp' to show ongoing processes,
     - then use 'kill -9 <process number>' to kill python process
+* If "Connection Error" occurs,
+    - Restart your computer/laptop!
