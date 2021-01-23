@@ -23,3 +23,5 @@ This is the tutorial of how to connect VISDOM  locally when training in a remote
     - then use 'kill -9 <process number>' to kill python process
 * If "Connection Error" occurs,
     - Restart your computer/laptop!
+* If 'RuntimeError: CUDA error: out of memory',
+    - Use 'nvidia -smi' to check available memory.
