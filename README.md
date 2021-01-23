@@ -6,7 +6,8 @@ This is the tutorial of how to connect VISDOM  locally when training in a remote
 #### 2nd step: 
  - In local cmd window, enter 
  ```python ssh -L 18097:127.0.0.1:8097 nq001@138.37.37.237 
- ```, enter password to login, 127.0.0.1 is local ip and 138.37.37.237 is QM Server's ip, which is checked by cmd command 'netstat -ano', 8097 is the default port number for visdom, 18097 is the local port number.
+ ```
+ , enter password to login, 127.0.0.1 is local ip and 138.37.37.237 is QM Server's ip, which is checked by cmd command 'netstat -ano', 8097 is the default port number for visdom, 18097 is the local port number.
  - 在本地的cmd中输入 ssh -L 18097:127.0.0.1:8097 nq001@138.37.37.237, 输入密码登录, 注意不能出现 permission denied字样
 #### 3rd step: 
  - module load anaconda3-->source activate Nishacondaenv-->python -m visdom.server, then visit 127.0.0.1:18097 in local browser, you do not have to access to dupin/fortunato/usher/prospero GPUs in this step
