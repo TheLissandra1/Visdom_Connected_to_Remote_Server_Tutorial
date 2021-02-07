@@ -25,3 +25,5 @@ This is the tutorial of how to connect VISDOM  locally when training in a remote
     - Restart your computer/laptop!
 * If 'RuntimeError: CUDA error: out of memory',
     - Use 'nvidia-smi' to check available memory.
+* 查看Linux GPU使用情况
+    - nvidia-smi
